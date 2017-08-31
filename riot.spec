@@ -55,8 +55,8 @@ Source1: %{contribarchivename}.tar.gz
 # patch for RPM builds - not really needed, but here for possible completeness
 # Patch0: %{archivebasename}-rpm.patch
 
-BuildRoot: %(mktemp -ud %{_tmppath}/%{namevr}-XXXXXX)
-BuildRequires: npm git desktop-file-utils
+# BuildRoot: %(mktemp -ud %{_tmppath}/%{namevr}-XXXXXX)
+# BuildRequires: npm git desktop-file-utils
 
 %description
 Riot is a decentralized, secure messaging client for collaborative group
