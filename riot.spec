@@ -53,7 +53,7 @@ URL: http://riot.im/
 Source0: riot-v%{version}.tar.gz
 Source1: %{contribarchivename}.tar.gz
 # patch for RPM builds - not really needed, but here for possible completeness
-# Patch0: %{archivebasename}-rpm.patch
+#Patch0: %{archivebasename}-rpm.patch
 
 # BuildRoot: %(mktemp -ud %{_tmppath}/%{namevr}-XXXXXX)
 # BuildRequires: npm git desktop-file-utils
